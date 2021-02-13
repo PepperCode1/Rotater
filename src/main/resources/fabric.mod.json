@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "rotater",
+  "version": "${version}",
+
+  "name": "Rotater",
+  "description": "Adds the rotater.",
+  "authors": [
+    "Pepper_Bell"
+  ],
+  "contact": {
+  },
+
+  "license": "Apache-2.0",
+  "icon": "assets/rotater/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.pepperbell.rotater.RotaterCommon"
+    ],
+    "client": [
+      "me.pepperbell.rotater.client.RotaterClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

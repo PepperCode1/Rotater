@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " p ",
+    "ptp",
+    " p "
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:piston"
+    },
+    "t": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "rotater:rotater"
+  }
+}
